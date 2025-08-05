@@ -1,127 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- SEO Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A sample webpage demonstrating HTML5 semantic structure, accessibility best practices, and basic SEO principles">
-    <meta name="keywords" content="HTML5, accessibility, SEO, web development, semantic HTML">
-    <meta name="author" content="Your Name">
-    <title>HTML5 Accessibility & SEO Basics | Web Fundamentals</title>
-    
-    <!-- Accessibility: Helps prevent browsers from unexpectedly switching to text-only mode -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A basic webpage to demonstrate HTML5 structure, accessibility, and SEO.">
+    <title>HTML5, Accessibility & SEO Basics</title>
 </head>
 <body>
-    <!-- Skip to Content Link for Keyboard Users -->
-    <a class="skip-link" href="#main-content">Skip to main content</a>
-    
-    <!-- Semantic Header -->
-    <header role="banner">
-        <h1>HTML5 Accessibility & SEO Basics</h1>
-        <p>Building better websites for humans and machines</p>
+
+    <header>
+        <h1>HTML5, Accessibility & SEO Basics</h1>
+        <p>A simple page for web development assignment</p>
     </header>
-    
-    <!-- Primary Navigation -->
-    <nav aria-label="Main navigation">
-        <h2 class="visually-hidden">Main Navigation</h2>
+
+    <nav>
         <ul>
             <li><a href="#html5">HTML5 Structure</a></li>
             <li><a href="#accessibility">Accessibility</a></li>
-            <li><a href="#seo">SEO Basics</a></li>
+            <li><a href="#seo">SEO</a></li>
             <li><a href="#resources">Resources</a></li>
         </ul>
     </nav>
-    
-    <!-- Main Content Area -->
-    <main id="main-content" role="main">
-        <!-- HTML5 Section -->
-        <section id="html5" aria-labelledby="html5-heading">
-            <h2 id="html5-heading">HTML5 Semantic Structure</h2>
+
+    <main id="main-content">
+
+        <section id="html5">
+            <h2>HTML5 Semantic Structure</h2>
+
             <article>
-                <h3>Why Semantic HTML Matters</h3>
-                <p>Semantic HTML provides meaning to web content, making it more accessible and SEO-friendly. Elements like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code> clearly define page sections.</p>
+                <h3>Why Use Semantic Tags?</h3>
+                <p>Semantic HTML makes it easier for search engines and screen readers to understand what each part of the page does.</p>
             </article>
-            
+
             <article>
-                <h3>Common Semantic Elements</h3>
+                <h3>Common Elements</h3>
                 <ul>
-                    <li><strong>&lt;header&gt;</strong>: Introductory content</li>
-                    <li><strong>&lt;nav&gt;</strong>: Navigation links</li>
-                    <li><strong>&lt;main&gt;</strong>: Primary content</li>
-                    <li><strong>&lt;section&gt;</strong>: Thematic grouping</li>
-                    <li><strong>&lt;article&gt;</strong>: Self-contained composition</li>
-                    <li><strong>&lt;aside&gt;</strong>: Tangentially related content</li>
-                    <li><strong>&lt;footer&gt;</strong>: Closing content</li>
+                    <li><strong>&lt;header&gt;</strong> – Top section of the page</li>
+                    <li><strong>&lt;nav&gt;</strong> – Menu or navigation links</li>
+                    <li><strong>&lt;main&gt;</strong> – Main content area</li>
+                    <li><strong>&lt;section&gt;</strong> – Groups related content</li>
+                    <li><strong>&lt;article&gt;</strong> – Standalone content blocks</li>
+                    <li><strong>&lt;aside&gt;</strong> – Side info like tips or links</li>
+                    <li><strong>&lt;footer&gt;</strong> – Bottom of the page</li>
                 </ul>
             </article>
         </section>
-        
-        <!-- Accessibility Section -->
-        <section id="accessibility" aria-labelledby="accessibility-heading">
-            <h2 id="accessibility-heading">Web Accessibility</h2>
+
+        <section id="accessibility">
+            <h2>Accessibility Basics</h2>
+
             <article>
-                <h3>Key Accessibility Principles</h3>
-                <p>Web Content Accessibility Guidelines (WCAG) outline four main principles:</p>
+                <h3>Key Principles</h3>
+                <p>Good websites are accessible to everyone. The WCAG principles are:</p>
                 <ol>
-                    <li><strong>Perceivable</strong>: Information must be presentable in ways users can perceive</li>
-                    <li><strong>Operable</strong>: Interface components must be operable</li>
-                    <li><strong>Understandable</strong>: Information must be understandable</li>
-                    <li><strong>Robust</strong>: Content must be robust enough for various user agents</li>
+                    <li><strong>Perceivable</strong> – Content should be visible and understandable</li>
+                    <li><strong>Operable</strong> – Can be used with keyboard and mouse</li>
+                    <li><strong>Understandable</strong> – Easy to read and navigate</li>
+                    <li><strong>Robust</strong> – Works on different browsers and devices</li>
                 </ol>
             </article>
-            
+
             <article>
-                <h3>Accessibility Techniques</h3>
+                <h3>Accessibility Tips</h3>
                 <ul>
-                    <li>Proper heading structure</li>
-                    <li>Alternative text for images</li>
-                    <li>Keyboard navigation support</li>
-                    <li>ARIA landmarks and roles</li>
-                    <li>Sufficient color contrast</li>
+                    <li>Use headings in the correct order (H1, H2, H3...)</li>
+                    <li>Add alt text for images (if used)</li>
+                    <li>Make sure keyboard users can navigate</li>
+                    <li>Use clear labels and simple language</li>
                 </ul>
             </article>
         </section>
-        
-        <!-- SEO Section -->
-        <section id="seo" aria-labelledby="seo-heading">
-            <h2 id="seo-heading">SEO Basics</h2>
+
+        <section id="seo">
+            <h2>Basic SEO</h2>
+
             <article>
-                <h3>On-Page SEO Factors</h3>
-                <p>Search Engine Optimization helps your content get discovered. Key HTML elements include:</p>
+                <h3>Simple On-Page SEO</h3>
+                <p>SEO helps people find your page. Here are a few basics:</p>
                 <dl>
                     <dt>Title Tag</dt>
-                    <dd>The &lt;title&gt; element is critical for SEO and appears in search results</dd>
-                    
+                    <dd>Shows in the browser tab and search results</dd>
+
                     <dt>Meta Description</dt>
-                    <dd>Provides a summary of the page content for search results</dd>
-                    
-                    <dt>Heading Tags</dt>
-                    <dd>Proper hierarchy (H1, H2, H3) helps search engines understand content structure</dd>
-                    
+                    <dd>A short summary of the page shown on search engines</dd>
+
+                    <dt>Headings</dt>
+                    <dd>Help organize content and improve readability</dd>
+
                     <dt>Semantic HTML</dt>
-                    <dd>Search engines favor well-structured content</dd>
+                    <dd>Makes it easier for search engines to read your page</dd>
                 </dl>
             </article>
         </section>
+
     </main>
-    
-    <!-- Secondary Content -->
-    <aside aria-labelledby="resources-heading">
-        <h2 id="resources-heading">Resources</h2>
+
+    <aside>
+        <h2 id="resources">Helpful Resources</h2>
         <ul>
-            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">MDN HTML Documentation</a></li>
-            <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank" rel="noopener noreferrer">WCAG Guidelines</a></li>
-            <li><a href="https://developers.google.com/search/docs" target="_blank" rel="noopener noreferrer">Google Search Documentation</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN: HTML Docs</a></li>
+            <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank">WCAG Guidelines</a></li>
+            <li><a href="https://developers.google.com/search/docs" target="_blank">Google SEO Starter Guide</a></li>
         </ul>
     </aside>
-    
-    <!-- Footer -->
-    <footer role="contentinfo">
-        <p>&copy; 2023 HTML5 Accessibility & SEO Basics. All rights reserved.</p>
-        <address>
-            Contact: <a href="mailto:info@example.com">info@example.com</a>
-        </address>
+
+    <footer>
+        <p>&copy; 2025 My Web Dev Assignment</p>
+        <address>Created by Kelvin Wamuyu</address>
     </footer>
+
 </body>
 </html>
